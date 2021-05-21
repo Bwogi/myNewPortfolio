@@ -74,10 +74,6 @@ header .flex {
     gap: 10px;
 }
 
-.hero-text {
-    animation: slideInFromLeft 1s ease-in;
-}
-
 .profile-image {
     position: relative;
     bottom: 70px;
@@ -263,7 +259,6 @@ main-section .work h1 {
     .hero-text {
         text-align: center;
         margin-top: 40px;
-        animation: slideInFromTop 1s ease-in;
     }
     .main-section .grid>*:first-child,
     .main-section .grid>*:nth-child(2) {
