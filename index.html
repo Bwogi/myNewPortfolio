@@ -5,82 +5,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - portfolio</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Andrew Bwogi - Portfolio</title>
 </head>
 
 <body>
-    <!-- header -->
+    <!-- header  -->
     <header>
-        <h1>Lernatino</h1>
-        <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact-me">Contact Me</a></li>
-            <li><a href="#resume">Resume</a></li>
-        </ul>
+        <div class="container flex">
+            <h1>Andrew Bwogi.</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#my-work">Portfolio</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <!-- end of header  -->
-    <!-- hero -->
+    <!-- header end -->
+
+
+    <!-- hero/ jumbotron  -->
     <section class="hero">
-        <img src="" alt="">
-        <h3>Cool subtitle here</h3>
-    </section>
-    <!-- end of hero -->
-    <!-- main section  -->
-    <main>
-        <!-- about me section  -->
-        <section class="about-me" id="about-me">
-            <h1 class="section-title">About Me</h1>
-            <article class="section-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vero non quasi maiores est dolore omnis! Enim reprehenderit earum, assumenda nihil, inventore, consequatur corrupti quos veniam eaque facilis temporibus maxime!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem rem ipsa, ut, odit dolorem dicta, eveniet quam commodi quaerat ullam corporis cupiditate qui cumque inventore corrupti nam id? Repellendus, totam.</p>
-            </article>
-        </section>
-        <!-- end of about me section  -->
-
-        <!-- work section  -->
-        <section class="work" id="work">
-            <h1 class="section-title">Work</h1>
-            <div class="grid">
-                <div class="surf-report">
-                    <h3>Surf Report</h3>
-                    <p>MERN Stack</p>
-                </div>
-                <div class="led-wall">
-                    <h3>LED Wall</h3>
-                    <p>Node/IoT</p>
-                </div>
-                <div class="calculator">
-                    <h3>Calculator</h3>
-                    <p>React/JavaScript/CSS</p>
-                </div>
-                <div class="pastel-puzzles">
-                    <h3>Pastel Puzzels</h3>
-                    <p>MERN Stack</p>
-                </div>
-                <div class="run-buddy">
-                    <h3>Run Buddy</h3>
-                    <p>HTML/CSS</p>
-                </div>
+        <div class="container grid">
+            <div class="hero-text">
+                <h1>Hi, nice to meet you.</h1>
+                <p>I am a Full Stack Web Developer(UC Berkeley, Class of 2021).</p>
+                <a href="#work" class="btn btn-outline">View some of my work</a>
             </div>
-        </section>
-        <!-- end of work section  -->
 
-        <!-- contact me section  -->
-        <section class="contact-me">
-            <h1>Contact Me</h1>
+            <div class="profile-image">
+                <img src="./images/profile_pic_no_bg-removebg-300.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- hero/ jumbotron end -->
+
+
+
+    <!-- random facts  -->
+    <section class="random-facts">
+        <div class="container flex">
+
+            <h1 class="font-2rems">Random Facts</h1>
             <ul>
-                <li><a href="#">555.555.555</a></li>
-                <li><a href="#">lernatino@website.com</a></li>
-                <li><a href="#">GitHUb</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Spotify</a></li>
+                <li>I drink alot of tea.</li>
+                <li>I love to teach and play piano.</li>
+                <li>I am abit of a neat freak.</li>
+                <li>I am slghtly addicted to doodling architectural inspirations.</li>
+                <li>My family is my life.</li>
             </ul>
-        </section>
-        <!-- end of contact me section  -->
-    </main>
-    <!-- end of main section  -->
+
+        </div>
+    </section>
+    <!-- random facts end -->
+
+
+
+
+    <!-- about section  -->
+    <section class="main-section rem15" id="about-me">
+        <div class="container grid grid-4">
+            <h1 class="font-2rems"></h1>
+
+            <div class="flex work">
+                <h1 class="font-2rems right">About <br> Me.</h1>
+
+            </div>
+
+            <div class="font-20">
+                <p> I am a Full-Stack Web Developer based in Riverside, California. I enjoy turning complex challenges into simple, beautiful intuitive solutions</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- about section end  -->
+
+
+    <!-- work section  -->
+    <section class="main-section rem15" id="my-work">
+        <div class="container grid grid-4">
+            <h1></h1>
+
+            <div class="flex right">
+                <h1 class="font-2rems">Work.</h1>
+            </div>
+
+            <div class=" flex">
+                <a href="#"><img src="./images/placeholder-jonathan-kemper.jpg" alt="">
+                    <div class="img-text">
+                        <h3>Tic-tac-toe</h3>
+                        <p>Reactjs</p>
+                    </div>
+                </a>
+            </div>
+            <div class=" flex">
+                <a href="#"><img src="./images/placeholder-jonathan-kemper.jpg" alt=""></a>
+
+            </div>
+            <div class="flex">
+                <a href="#"><img src="./images/placeholder-jonathan-kemper.jpg" alt=""></a>
+
+            </div>
+            <div class=" flex">
+                <a href="https://ereports.net/tictactoe" target="_blank"><img src="./images/placeholder-jonathan-kemper.jpg" alt=""></a>
+
+            </div>
+            <div class="flex">
+                <a href="#"><img src="./images/placeholder-jonathan-kemper.jpg" alt=""></a>
+
+            </div>
+            <div class="flex">
+                <a href="#"><img src="./images/placeholder-jonathan-kemper.jpg" alt=""></a>
+
+            </div>
+            <div class="flex">
+                <a href="#"><img src="./images/placeholder-jonathan-kemper.jpg" alt=""></a>
+
+            </div>
+        </div>
+    </section>
+    <!-- work section end -->
+
+
+    <!-- contact me section  -->
+
+    <section class="main-section rem15" id="contact-me">
+        <div class="container grid grid-4">
+            <h1></h1>
+
+            <div class="flex right">
+                <h1 class="font-2rems contact">Contact <br> Me.</h1>
+            </div>
+
+            <div class="font-20">
+                <p>Like my work? Have a cool project to work on?! Contact me directly. I will be happy to help you solve that challenge.</p>
+                <ul>
+                    <li><a href="#">(415) 465 3279</a></li>
+                    <li><a href="mailto:andrew.bwogi@gmail.com" target="_blank">andrew.bwogi@gmail.com</a></li>
+                    <li> <a href="https://github.com/bwogi" target="_blank"> Github</a></li>
+                    <li><a href="https://facebook.com/andrew.bwogi" target="_blank"> Facebook</a></li>
+
+
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <!-- contact me section end -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container center">
+            <p>&copy; 2021. Andrew Bwogi</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
